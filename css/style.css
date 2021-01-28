@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Yusei Magic", sans-serif;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ecf0f3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div {
+  width: 330px;
+  height: 500px;
+  border-radius: 30px;
+  background-color: #ecf0f3;
+  box-shadow: 13px 13px 20px #b9bdc4, -13px -13px 10px #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div__item img {
+  position: relative;
+  top: -120px;
+  height: 100px;
+}
+
+.title {
+  position: relative;
+  top: -100px;
+}
+
+.login-div__fields {
+  position: absolute;
+  top: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-div__fields input {
+  border: none;
+  outline: none;
+  background: none;
+  height: 30px;
+  width: 250px;
+}
+
+.login-div__user {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.login-div__password {
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: inset 8px 8px 8px #cbced1, inset -8px -8px 8px #fff;
+}
+
+.login-div__button {
+  margin-bottom: 20px;
+}
+
+.login-div__button {
+  width: 250px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  background-color: rgb(55, 119, 214);
+  transition: all 0.5s;
+}
+
+.login-div__button:hover {
+  background-color: rgb(92, 157, 255);
+}
+
+.login-div__links {
+  position: absolute;
+  top: 500px;
+}
+
+.login-div__links a {
+  text-decoration: none;
+  color: #555;
+}
+
+.login-div__fields input[type="username"] {
+  padding-left: 30px;
+}
+
+.login-div__fields input[type="password"] {
+  padding-left: 33px;
+}
+
+.login-div__fields svg {
+  position: absolute;
+  margin-top: 4px;
+  height: 20px;
+}
